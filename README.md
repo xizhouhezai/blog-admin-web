@@ -1,12 +1,4 @@
-# Vue 轻量级后台管理系统基础模板
-
-### [在线预览](https://woai3c.github.io/vue-admin-template)
-### [更新日志](https://github.com/woai3c/vue-admin-template/blob/master/update.md)
-### 相关依赖
-* [vue-router](https://router.vuejs.org/zh/)
-* [iview](https://www.iviewui.com/docs/guide/install)
-* [axios](https://www.kancloud.cn/yunye/axios/234845)
-* [vuex](https://vuex.vuejs.org/zh/)
+# Vue 博客管理系统前端
 
 ### 功能
 
@@ -54,36 +46,11 @@ export default {
 #### 权限控制
 * 如果在未登陆的情况下访问指定页面 将会重定向到登陆页
 
-#### [eslint + vscode 自动格式化代码](https://github.com/woai3c/Front-end-articles/blob/master/eslint-vscode-format.md)
-具体配置方法请点击上面的链接，如果不需要 eslint，请将相关依赖卸载以及根目录下的 `.eslintrc.js` 删除。
-
-#### [jest 单元测试](https://vue-test-utils.vuejs.org/zh/guides/testing-single-file-components-with-jest.html)
-如果不需要，请卸载相关依赖及删除根目录下的 `tests` 目录
-
 #### 页面标题 `document.title`
 在 `src/utils/index` 下可设置默认的 `title`，在每个路由配置项上可设置对应的 `title`，具体示例请看代码
 
 #### 其它
 * 利用`axios`拦截器 实现了`ajax`请求前展示`loading` 请求结束关闭`loading`
-
-### 注意
-* 源码可见 并且添加了必要的注释 可以自行更改
-
-
-`Index`组件一般情况下只需要传数据就行 其他不用关注
-
-市面上有大量的vue后台管理系统模板 但是功能都太丰富了 而且有很多组件用不上 所以写了这么一个最基础的 只有必要功能的模板
-UI库使用的是`iView` 有大量的组件可用 
-
-### 使用
-#### 下载
-```
-git clone https://github.com/woai3c/vue-admin-template.git
-
-cd vue-admin-template
-
-npm i
-```
 
 #### 开发
 ```
@@ -101,4 +68,3 @@ npm run build
 publicPath: './',
 ```
 
-### 如果对你有帮助，请给个Star
