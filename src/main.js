@@ -13,8 +13,8 @@ Vue.use(ViewUI)
 Vue.prototype.$axios = axios
 
 new Vue({
-    el: '#app',
-    router,
-    store,
-    render: h => h(App),
+  el: '#app',
+  router,
+  store,
+  render: h => h(App),
 })
